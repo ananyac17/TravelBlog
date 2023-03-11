@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <style>
+    h1 {
+      font-family: Snell Roundhand, cursive;
+    }
+    h2 {
+      font-family: Snell Roundhand, cursive;
+    }
+
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
+    }
+
+    div.transbox h2 {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
+  </style>
+
+  <body class="formbg">
+    <div class="full-container">
+      <button onclick="location.href='index.html'">RETURN TO HOME PAGE</button>
+      <h1 style="text-align: center">New user registration</h1>
+      <div class="center-container">
+        <div class="formWindow" id="userRegisterWindow">
+          <form id="registerForm" action="index.html" method="post">
+            <p class="label">
+              <span>First Name</span>
+              <input
+                class="userFormInput"
+                type="text"
+                name="userFirstName"
+                placeholder="Enter First Name"
+                id="fname"
+                onblur="return checkname(this);"
+                required
+              /><span id="fn"></span>
+            </p>
+            <p class="label">
+              <span>Last Name</span>
+              <input
+                class="userFormInput"
+                type="text"
+                name="userLastName"
+                placeholder="Enter Last Name"
+                id="lname"
+                onblur="return checkname(this);"
+                required
+              /><span id="ln"></span>
+            </p>
+            <p class="label">
+              <span>Email</span>
+              <input
+                class="userFormInput"
+                type="email"
+                name="userEmail"
+                placeholder="Enter Email"
+                id="email"
+                onblur="return checkmail();"
+                required
+              /><span id="eid"></span>
+            </p>
+            <p class="label">
+              <span>Mobile </span
+              ><input
+                class="userFormInput"
+                type="text"
+                name="userContact"
+                placeholder="Enter Mobile Number"
+                id="mob"
+                onblur="return checkmob();"
+                required
+              /><span id="mobile"></span>
+            </p>
+            <p class="label">
+              <span>Password</span>
+              <input
+                class="userFormInput"
+                type="password"
+                name="userPasswd"
+                placeholder="Enter Password"
+                id="pw"
+                required
+              />
+            </p>
+            <p class="label">
+              <span>Confirm Password </span
+              ><input
+                class="userFormInput"
+                type="password"
+                name="userPasswdConf"
+                placeholder="Confirm Password"
+                id="cpw"
+                onblur="return checkpwd();"
+                required
+              /><span id="cpwd"></span>
+            </p>
+            <p>
+              <input
+                type="submit"
+                name="submit"
+                class="yellowBtn"
+                value="Sign Up"
+              />
+            </p>
+            <p class="formText">
+              Already have an account? Click to
+              <a
+                href="signin.html"
+                style="text-decoration: none; color: #ffc312"
+                >Log in</a
+              >
+            </p>
+            <p class="formText">
+              By signing up, you agree to our
+              <a href="#" style="text-decoration: none; color: #ffc312"
+                >Terms and Conditions</a
+              >.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="transbox">
+      <h2>
+        “To my mind, the greatest reward and luxury of travel is to be able to
+        experience everyday things as if for the first time, to be in a position
+        in which almost nothing is so familiar it is taken for granted.” – Bill
+        Bryson
+      </h2>
+    </div>
+  </body>
+  <script type="text/javascript" src="validation.js"></script>
+  <script type="text/javascript">
+    console.log("test");
+  </script>
+</html>

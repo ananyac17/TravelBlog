@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <style>
+    body {
+      background-image: url("./images/sand.jpeg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    h1 {
+      font-family: Snell Roundhand, cursive;
+    }
+    h2 {
+      font-family: Snell Roundhand, cursive;
+    }
+
+    div.transbox {
+      margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
+    }
+
+    div.transbox h2 {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
+  </style>
+  <body>
+    <button onclick="location.href='index.html'">RETURN TO HOME PAGE</button>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.css"
+    />
+    <h1>An exotic vacation to Bali!</h1>
+
+    <div id="fullscreen-display" class="fullscreen-dispay-hide">
+      <img style="width: 90%" src="" />
+      <i
+        class="fas fa-times"
+        style="display: none"
+        onclick="ImageGallery.toggleFullscreenImage()"
+      ></i>
+    </div>
+
+    <div class="container">
+      <div id="first" class="gallery-container">
+        <div class="imageSlide" style="display: block">
+          <div class="numbertext">1 / 4</div>
+          <div
+            class="fullscreen-btn"
+            onclick="ImageGallery.toggleFullscreenImage('./images/la.jpeg')"
+            src="./images/la.jpeg')"
+          >
+            <i class="fas fa-expand"></i>
+          </div>
+          <img
+            class="imgSlide"
+            onclick="ImageGallery.toggleFullscreenImage('./images/la.jpeg')"
+            src="./images/la.jpeg"
+            style="width: 100%"
+            alt=" tail.next = newNode; "
+          />
+          <div class="caption-container">
+            <p id="caption">La Plancha Beach Bar</p>
+          </div>
+        </div>
+
+        <div class="imageSlide" style="display: none">
+          <div class="numbertext">2 / 4</div>
+          <div
+            class="fullscreen-btn"
+            onclick="ImageGallery.toggleFullscreenImage('./images/fins.jpeg')"
+          >
+            <i class="fas fa-expand"></i>
+          </div>
+          <img
+            class="imgSlide"
+            onclick="ImageGallery.toggleFullscreenImage('./images/fins.jpeg')"
+            src="./images/fins.jpeg"
+            style="width: 100%"
+            alt=" newNode.previous = tail;"
+          />
+          <div class="caption-container">
+            <p id="caption">Finn's Beach Club</p>
+          </div>
+        </div>
+
+        <div class="imageSlide" style="display: none">
+          <div class="numbertext">3 / 4</div>
+          <div
+            class="fullscreen-btn"
+            onclick="ImageGallery.toggleFullscreenImage('./images/flower.jpeg')"
+          >
+            <i class="fas fa-expand"></i>
+          </div>
+          <img
+            class="imgSlide"
+            onclick="ImageGallery.toggleFullscreenImage('./images/flower.jpeg')"
+            src="./images/flower.jpeg"
+            style="width: 100%"
+            alt=" tail = newNode; size++;"
+          />
+          <div class="caption-container">
+            <p id="caption">Flower bath Ubud</p>
+          </div>
+        </div>
+
+        <div class="imageSlide" style="display: none">
+          <div class="numbertext">3 / 4</div>
+          <div
+            class="fullscreen-btn"
+            onclick="ImageGallery.toggleFullscreenImage('./images/111.jpg')"
+          >
+            <i class="fas fa-expand"></i>
+          </div>
+          <img
+            class="imgSlide"
+            onclick="ImageGallery.toggleFullscreenImage('./images/111.jpg')"
+            src="./images/111.jpg"
+            style="width: 100%"
+            alt=" newNode.previous = tail;"
+          />
+          <div class="caption-container">
+            <p id="caption">Uluwatu</p>
+          </div>
+        </div>
+
+        <div class="imageSlide" style="display: none">
+          <div class="numbertext">4 / 4</div>
+          <div
+            class="fullscreen-btn"
+            onclick="ImageGallery.toggleFullscreenImage('./images/yy.jpeg')"
+          >
+            <i class="fas fa-expand"></i>
+          </div>
+          <img
+            class="imgSlide"
+            onclick="ImageGallery.toggleFullscreenImage('./images/yy.jpeg')"
+            src="./images/yy.jpeg"
+            style="width: 100%"
+            alt=" tail = newNode; size++;"
+          />
+          <div class="caption-container">
+            <p id="caption">Nusa Penida</p>
+          </div>
+        </div>
+        <a class="prev">❮</a>
+        <a class="next">❯</a>
+      </div>
+    </div>
+    <p style="font-family: Snell Roundhand, cursive">
+      Contributed by - Ananya Chakraborty
+    </p>
+
+    <p>
+      Bali is a popular holiday destination for people around the world and it
+      is very obvious why! From the list of numerous beaches, temples,
+      activities, delicious food- there is so much to see and explore.
+    </p>
+
+    <p>
+      Going to Bali was always a dream for me, and so I decided to spend my
+      birthday with friends in Bali. Bali has an activity for every soul, but I
+      decided to go for the adventure activities and the party side of the
+      island. The best time to visit Bali is during the dry season i.e May to
+      October, but since my birthday was in November, I went for that month.
+      Usually a rainy season at that time, it was surprisingly warm and dry
+      during that time. But if you go for a dry season, you dont have to worry
+      about the rains soiling your plans.
+    </p>
+
+    <p>
+      The only problem might be that it would be too crowded, especially in the
+      popular tourist destinations and also flights and hotels would be more
+      expensive. But between November to April, its the cheapest time to go, so
+      I got pretty cheap deals and also no rains thanks to my luck.
+    </p>
+    <p>
+      <b
+        ><i><a>IMPORTANT INFORMATION</a></i></b
+      >
+    </p>
+
+    <p>Total expense of the trip – 50,000 Rs for 8 days</p>
+    <p>Language – The main languages are Indonesian, Balinese and English</p>
+    <p>
+      Currency – The currency is Indonesian Rupiah. 1 INR equals to 197 rupiah.
+      1 USD equals to 14,792 rupiah.
+    </p>
+    <p>
+      ATM – There are plenty of ATMs everywhere except the islands like Nusa
+      Penida, Nusa Lembongan, Gili islands.
+    </p>
+    <p>
+      Charging cable – One of the issues I faced was that the plugs in Bali are
+      different than that of India. So, it is advised to carry an universal
+      adapter, as the local markets there know this and thus sell low quality
+      adapters at very high price.
+    </p>
+    <p>
+      Safety – Bali is very safe for solo female travelers, couples and group of
+      females. There is safety even at night and in places of solitude. I didn’t
+      find any issues with safety there, though past 8-9 pm at night, all the
+      shops start getting closed.
+    </p>
+    <p>
+      Flights – The flights from India to Bali are quite reasonable. I booked
+      through Malindo air and my return airfare was 18,000 Rs.
+    </p>
+    <p>
+      Visa – There is visa on arrival in Bali and it is free of cost. Also the
+      queue for immigration is usually very small.
+    </p>
+    <p>
+      Sim card – There are plenty of simcards in the airport itself post the
+      immigration, you can choose according to your needs and prices. WE got a
+      sim for IDR 100,000.
+    </p>
+
+    <p>
+      <b
+        ><i><a>Seminyak and Canggu</a></i></b
+      >
+    </p>
+    <p>
+      There are no direct flights from India to Bali, so we had a layover at
+      Malaysia for 2 hours. We reached at Ngurah Rai International Airport in
+      the morning at 11:30 am, the queue for immigration was very small. It was
+      easy to find a cab from the airport at a very reasonable price. There is
+      no Uber in Bali, but you can find a Grab taxi, or Go-jek motorcycle taxi.
+      We took the Grab for IDR 63000 to Seminyak- which was our first
+      destination. It was 15 mins from the airport. We had taken a private pool
+      villa in “New Pondak Sara Villas”. The price per night for a room with
+      private swimming pool and breakfast was 9,08,000 IDR. The hotel was full
+      of greenery and each villa was very spacious with hall, room, kitchen, a
+      very large bathroom with bathtub, and a swimming pool. The staff was very
+      hospitable and food was delicious.
+    </p>
+    <p>
+      After freshening up, we started to explore. Seminyak was the hub for the
+      best beach clubs, best shopping malls and areas and things were available
+      really cheap there. It was also close to Caggnu, where we wanted to
+      explore the famous Finn’s beach club and Potato Head beach club. It was in
+      the center to everything and also close to the airport. The best way to
+      explore Bali is through a motorcycle. So we went to a bike rent shop near
+      our hotel and rented motorbikes at the price of 1,00,000 per day. Bike
+      rentals are everywhere, you just have to bargain to get a better price.
+      After taking the bike, we explored the shopping areas of Seminyak, the
+      Seminyak beach and headed to the famous Finn’s beach club in Caggnu. It
+      was a 20 min drive. It was one of the best beach clubs with an infinity
+      pool overlooking the ocean.
+    </p>
+    <p>
+      There is an no entry charge, but you have to pay for a locker, approx IDR
+      50,000. You would need the locker as you cant swim in your regular clothes
+      and need your swimsuits. The changing rooms are right adjacent and very
+      clean. You can alternatively book single bed, deluxe bed, lagoon deluxe
+      bed, lagoon party bed for the whole day. You can also go to Finn’s VIP
+      beach club which is just adjacent and is just a little bit expensive and
+      more luxurious. We didn’t book any bed for the day as we wanted to spend
+      2-3 hours there and enjoy and later proceed to explore other places.
+      Finn’s had the best food, a bit expensive but the price and taste was
+      worth it. Alcohol was a little extra charged than outside but well, you
+      had an option to enjoy it in a pool overlooking the ocean. So it was
+      beautiful. There are 3 pools with an amazing DJ for dance and enjoying the
+      food.
+    </p>
+
+    <p>
+      After Finn’s, we went to the Seminyak beach and explored the famous La
+      Plancha beach club. This place was really famous among tourists and I had
+      always seen its pictures in various social medias. It’s an amazing place
+      to sit on a bean bag and enjoy the sunset with some food and a beer. Due
+      to its popularity, it gets hard to get a seat in the front rows, but the
+      views are worth it, also the food is not that expensive.
+    </p>
+    <p>
+      <b
+        ><i><a id="ubud">Ubud</a></i></b
+      >
+    </p>
+    <p>
+      The next day, we woke up early morning for the Mount Batur trek. Its a
+      volcanic mountain and the sunrise from there is awesome. You can book it
+      locally or online, there are tons of operators for the trek. Post the
+      trek, we went to Ubud. Our first spot was the Karsa Spa. This is one of
+      the most famous spa in Bali, for the traditional Balinese massage. Tip- It
+      is impossible to get an appointment for spa there due to its popularity,
+      you have to book it a month or two ago.
+    </p>
+    <p>
+      The spa was perfect to remove our tiredness from the trek. Spa for two
+      costed IDR 659,200 including a flower bath at the end. It was really worth
+      it. They ask you to choose oil according to your preference for the spa.
+      The spa was so soothing and the flower bath was very beautiful, it was
+      good for skin as well. We came out glowing from the spa and then headed to
+      Ubud for some sightseeing.
+    </p>
+    <p>
+      As I had mentioned, we kept our trip focused on adventure activities and
+      unique experiences and less on overcrowded famous tourist spots. Ubud was
+      full of traditional temples and palaces to see. After some shopping at the
+      Ubud market and some sightseeing, we came back in the evening to our hotel
+      in Seminyak, and went to Kuta-Legian to explore the nightlife there.
+      Legian was 15 minute drive and was a party hub.
+    </p>
+    <p>
+      <b
+        ><i><a id="kuta">Kuta-Legian and Uluwatu</a></i></b
+      >
+    </p>
+    <p>
+      That night we explored the Legian street which had various pubs and
+      nightclubs. It was a nice party atmosphere. The next morning we woke up
+      early in the morning and went to explore the Potato Head Beach Club at
+      Caggnu. It was another famous beach club in the area.
+    </p>
+    <p>
+      An obvious must visit in Uluwatu is the temple with the same name. We
+      visited on our first morning in Uluwatu, thinking it would be ideal to
+      cross this one off the list. You are supposed to go at sunset to witness
+      the kecak dance, but we didn’t. Instead we opted to go when we were
+      sweating our asses off in the midday heat. Anyway, you should probably
+      visit at sundown – but that’s also when all the tour busses arrive.
+    </p>
+    <div class="transbox">
+      <h2>
+        There is a saying in Bali: “We have no art. We do everything as
+        beautifully as possible.” This reflects my philosophy of practice. I try
+        to remember daily what a gift it is to have the privilege of living in
+        this wondrous world. -Sam Keen
+      </h2>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
